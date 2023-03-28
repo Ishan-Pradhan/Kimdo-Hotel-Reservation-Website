@@ -1,0 +1,135 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color: #ECF6F6;
+}
+
+.profile-header{
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffffbb;
+  padding: 25px 50px;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.185);
+}
+
+.profile-links{
+  display: flex;
+  gap: 30px;
+}
+
+.profile-links a{
+  color: rgb(53, 53, 53);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.profileinfo{
+  width: 700px;
+  margin: 50px;
+}
+
+.profileinfoform{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  
+}
+
+.form-group input{
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  padding: 0 25px;
+}
+
+.profileinfoform label{
+  font-size: 20px;
+  font-weight: 600px;
+  width: 100px;
+  
+}
+
+.btn{
+  background-color: #42A8AA;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  font-size: 16px;
+  padding: 8px 16px;
+}
+
+.btn:hover{
+  background-color: #296a6b;
+}
+
+.logoutbtn{
+  background-color: rgb(250, 85, 85);
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.logoutbtn:hover{
+  background-color: rgb(253, 59, 59);
+}
+
+.mybookingtable{
+display: flex;
+justify-content: center;
+}
+
+.booking-table {
+  border-collapse: collapse;
+  width: 50%;
+ 
+}
+
+.booking-table th,
+.booking-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.booking-table th {
+  background-color: #ddd;
+  font-weight: bold;
+ 
+}
+
+.cancel-booking-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel-booking-btn:hover {
+  background-color: darkred;
+}
+
+.mybookingsection{
+  margin-top: 50px;
+}
+
+.mybookingsection h2{
+  text-align: center;
+}
