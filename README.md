@@ -1,6 +1,5 @@
 # Kimdo Hotel Reservation 
-Developed a small-scale hotel reservation website project for Kimdo Hotel using PHP. Created a user-friendly interface
-allowing room searches, real-time availability checks, and easy reservations. Although not sold, the project showcases my skills in web development and highlights the potential for enhancing Kimdo Hotel's online booking experience in the future.
+Developed a hotel reservation website for Kimdo Hotel as a project using PHP. The site features an intuitive interface, enabling room searches, real-time availability checks, and easy reservations. This project serves as a practical demonstration of my web development skills, focusing on creating effective online booking systems.
 
 ## Screenshots of projects
 ![Output-Homepage](https://github.com/user-attachments/assets/04b194a0-d034-4982-ba74-262d26724ab5)
